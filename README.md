@@ -1,3 +1,5 @@
+See workShop folder for "Block 14 Workshop: Loops and Arrays"
+
 
 Simple Code - Arrays allow you to group together similar variables, resulting in fewer lines of code, variables names, and possible syntax errors.
 
@@ -69,4 +71,51 @@ Loop = offer a quick and easy way to do something repeatedly.
         - Do something until a certain condition is met
 
     Class is focusing on only two types of loops "for" and "while".
+
+For
+    loop through a block of code a 'number' of times.
+        - loop over a block of code a 'set number' of times.
+        - 'for loop' statement is created with three expressions.
+            parentheses "()", semicolons ";", and curly braces "{}"
+
+    Ex) for(initialization; condition; afterthought)v{
+        // statement;
+        } 
+    
+    Initialization = executed once before the execution.
+    Condition = defines the condition for executing the code block.
+    Afterthought = executed after the code block finishes.
+
+    *launch debugger by running command 'node demo.js' within JavaScript Debug Terminal (VSCode)*
+
+*see demo.js*
+
+    Index value is incremented by 1 and used to access the Object to access a specific index.
+
+    Ex) const operatingSystems = ['windows', 'linus', 'mac'];
+
+        for(let index = 0; index < operatingSystems.length; index++) {
+            console.log(operatingSystem[index]);
+        }
+
+        Prints: windows linux mac
+
+    Ex) const countdown = [1, 2, 3, 4, 5]; 
+        
+        for(let index = countdown.length - 1; index >= 0; index--) {
+            console.log(countdown[index]);
+        };
+
+        Prints: 5 4 3 2 1
+    
+
+While
+    loop through a block of code while a 'specific condition' is true.
+        - loop through a block of code as long as a 'specified condition' is met.
+
+    Ex) while (condition) {
+        // code block to be executed
+        }
+
+    
 

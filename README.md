@@ -1,6 +1,6 @@
 See workShop folder for "Block 14 Workshop: Loops and Arrays"
 
-
+WIIFM;
 Simple Code - Arrays allow you to group together similar variables, resulting in fewer lines of code, variables names, and possible syntax errors.
 
 Efficiency - Both loops and arrays will allow you be to perform more tasks with fewer lines of code and resources.
@@ -88,7 +88,7 @@ For
 
     *launch debugger by running command 'node demo.js' within JavaScript Debug Terminal (VSCode)*
 
-*see demo.js*
+*see for-loops.js*
 
     Index value is incremented by 1 and used to access the Object to access a specific index.
 
@@ -107,6 +107,7 @@ For
         };
 
         Prints: 5 4 3 2 1
+        (index-- = count down // index++ = counting up)
     
 
 While
@@ -117,5 +118,11 @@ While
         // code block to be executed
         }
 
-    
+*see while-loops.js*
+
+Stack Overflow = error that occurs if the condition is always true, resulting in the while loop looping infinitely.
+    (Needs to have an exit out of the loop)
+
+**Strings are also 0 indexed, so therefore we can loop over strings just like arrays.**
+
 

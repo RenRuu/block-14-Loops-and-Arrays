@@ -107,7 +107,7 @@ For
         };
 
         Prints: 5 4 3 2 1
-        (index-- = count down // index++ = counting up)
+     (index-- = count down // index++ = counting up)
     
 
 While
